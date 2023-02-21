@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Spa Booking</title>
+    <link rel="stylesheet" type="text/css" href="payment.css">
+  </head>
+  <body>
+    <h1>Book Your Spa Treatment</h1>
+    <form>
+      <div class="form-group">
+        <label for="fullName">Full Name:</label>
+        <input type="text" id="fullName" name="fullName">
+      </div>
+      <div class="form-group">
+        <label for="Number">Number:</label>
+        <input type="number" id="number" name="number">
+      </div>
+      <div class="form-group">
+        <label for="address">Adress:</label>
+        <input type="Text" id="address" name="address">
+      </div>
+      <div class="form-group">
+        <label for="appointmentDate">Appointment Date:</label>
+        <input type="date" id="appointmentDate" name="appointmentDate">
+      </div>
+      <div class="form-group">
+        <label for="appointmentTime">Appointment Time:</label>
+        <select id="appointmentTime" name="appointmentTime">
+          <option value="9am">9:00 AM</option>
+          <option value="10am">10:00 AM</option>
+          <option value="11am">11:00 AM</option>
+          <option value="12pm">12:00 PM</option>
+          <option value="1pm">1:00 PM</option>
+          <option value="2pm">2:00 PM</option>
+          <option value="3pm">3:00 PM</option>
+          <option value="4pm">4:00 PM</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="treatment">Treatment:</label>
+        <select id="treatment" name="treatment">
+          <option value="massage">Bath+Basic grooming--INR 800</option>
+          <option value="facial">Full service--INR 1499</option>
+          <option value="manicure">Trans-fur-mation--INR 1199</option>
+          <option value="pedicure">Customised(price-according to specified treatment)</option>
+        </select>
+      </div>
+      <a href="file:///D:/project/booked.html" class="btn">BOOK NOW</a>
+    </form>
+  </body>
+</html>
